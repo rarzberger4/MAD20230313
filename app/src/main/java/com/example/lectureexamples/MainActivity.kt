@@ -32,6 +32,7 @@ class MainActivity : ComponentActivity() {
         
         setContent {
             LectureExamplesTheme {
+                MyNavigation()
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
